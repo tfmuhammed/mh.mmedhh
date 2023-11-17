@@ -255,6 +255,17 @@ footer{
     font-weight: 400;
     color: var(--other-color);
 }
+
+#preloader{
+    background: #0C2340 url(images/preloader.gif) no-repeat center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
 /* section all end */
 
 @media (max-width: 1770px) {

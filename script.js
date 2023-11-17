@@ -14,3 +14,9 @@ sr.reveal('.button', {delay:610, origin: "top"});
 sr.reveal('.center', {delay:710, origin: "right"});
 
 sr.reveal('.photo', {delay:810, origin: "top"});
+
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
